@@ -1,0 +1,32 @@
+.transaction-history {
+    min-width: 50%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 210px;
+  }
+  
+  .head {
+    background-color: #00bcd5;
+    text-transform: uppercase;
+    color: white;
+  }
+
+  .body{
+    text-transform: capitalize;
+    font-weight: 200;
+  }
+  
+  .head th, .body td {
+    border: 1px solid #ddd;
+    padding: 35px;
+    text-align: center;
+  }
+  
+.one {
+    background-color: #ffffff;
+  }
+  
+.two {
+    background-color: #ecf1f4;
+  }
+  
