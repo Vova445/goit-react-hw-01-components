@@ -11,7 +11,7 @@ const UploadStats = ({ title, data }) => {
       };
 
   return (
-    <section style={{ backgroundColor: 'white', width: '30%' }}>
+    <section style={{ backgroundColor: 'white', width: '30%' ,}}>
       {title && (
         <h2 style={{ textAlign: 'center', color: 'black', fontWeight: '300', fontSize: '28px', padding: '20px', textTransform: 'uppercase' }}>
           {title}
