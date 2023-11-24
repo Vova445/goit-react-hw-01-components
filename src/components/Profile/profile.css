@@ -1,15 +1,16 @@
 .stats {
     list-style: none;
-    padding: 40px;
+    padding: 80px;
     margin: 0;
     display: flex;
     margin-top: 50px;
-    gap: 120px;
+    gap: 40px;
     background-color: #c7c8cc;
     flex-direction: row;
     justify-content: center;
     border-top: 1px solid gray;
   }
+  
   
   
   .profile{

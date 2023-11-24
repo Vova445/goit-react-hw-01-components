@@ -4,7 +4,7 @@ import './profile.css';
 const Profile = ({ userData }) => {
   return (
     <div style={{
-        width: '30%',
+        maxWidth: '30%',
         backgroundColor: '#DBE0E7',
     }}>
       <div className="profile">
