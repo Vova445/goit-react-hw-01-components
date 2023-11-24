@@ -1,8 +1,10 @@
 import React from 'react';
-import Profile from './Profile'; 
-import UploadStats from './UploadStats'; 
-import user from './user.json';
-import data from './data.json';
+import Profile from './Profile/Profile'; 
+import UploadStats from './Stats/UploadStats'; 
+import FriendList from './List/FriendList'; 
+import user from './Profile/user.json';
+import data from './Stats/data.json';
+import friends from  './List/friends.json';
 
 export const App = () => {
   return (
@@ -21,6 +23,8 @@ export const App = () => {
     >
       <Profile userData={user} />
       <UploadStats title="Upload stats" data={data} />
+
+      <FriendList friends={friends} />
     </div>
   );
 };
